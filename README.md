@@ -24,6 +24,8 @@ About the dataset ….
 • The last column shows the target ( y ) values, which are BodyFat in percentage.
 
 
+
+
 Step 1 : Fitness Evaluation
 
 • Fitness function shows how good is a chromosome as solution to your
@@ -32,12 +34,16 @@ problem. Its mainly user-defined function.
 • 𝐹𝑖𝑡𝑛𝑒𝑠𝑠𝑉𝑎𝑙𝑢𝑒 of all the chromosomes generated are calculated and are assigned to them. This is done before you binarize them. 
 
 
+
+
 Step 2 : Selection
 
 • In this step we select ‘fittest’ parent from the existing population already created, in order to produce two offsprings with every
 other member of population.
 
 • The fittest means the chromosome which show highest value from Eq(3)
+
+
 
 
 Step 3: Cross Over (mating)
@@ -53,6 +59,8 @@ Step 3: Cross Over (mating)
 • The point at which the chromosome is broken depends on the randomly selected crossover point.
 
 • This particular method is called single point crossover because only one crossover point exists. Sometimes only child 1 or child 2 is created, but oftentimes both offspring are created and put into the new population.
+
+
 
 
 Step 4: Mutation
